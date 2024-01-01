@@ -12,7 +12,8 @@ export const App = () => {
 			<Link to='/about'>about</Link>
 			<br/>
 			<Link to='/shop'>shop</Link>
-			<h1>counter: {counter}</h1>
+			<div>PLATFORM={__PLATFORM__}</div>
+			<h1 style={{color: 'blue'}}>counter: {counter}</h1>
 			<div>
 				<img width={100} height={100} src={Pic1} alt=""/>
 			</div>
